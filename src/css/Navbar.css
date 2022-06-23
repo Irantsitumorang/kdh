@@ -1,0 +1,134 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    background-color: #71695F;
+    color: #EEEEEE;
+    padding: auto 20%;
+    margin-bottom: 30px;
+}
+
+.header1 {
+    display: flex;
+    margin-left: 15%;
+}
+
+.header2 {
+    display: flex;
+    margin-right: 15%;
+}
+
+.header2 ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.header2 > ul > li {
+    float: left;
+}
+
+.header2 li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.header2 li a:hover{
+    background-color:  #333333;
+}
+
+li .dropdown {
+    display: inline-block;
+}
+
+.dropdown:hover .isi-dropdown {
+    display: block;
+}
+
+.isi-dropdown a:hover {
+    color: #fff !important;
+}
+
+.isi-dropdown {
+    position: absolute;
+    display: none;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    background-color: #635C53;
+}
+
+.isi-dropdown a {
+    color: #EEEEEE !important;
+}
+
+.isi-dropdown a:hover {
+    color: #EEEEEE !important;
+    background: #333333 !important;
+}
+
+.search{
+    width: 300px;
+    vertical-align: middle;
+    white-space: nowrap;
+    position: relative;
+    margin-left: 30px;
+  }
+
+  .search input#search{
+    width: 38rem;
+    margin-top: 4%;
+    height: 35px;
+    background: #DDDDDD;
+    border: none;
+    font-size: 10pt;
+    float: left;
+    color: #635C53;
+    padding-left: 4%;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+  }
+
+  .search input#search::-webkit-input-placeholder {
+    color: #65737e;
+ }
+  
+ .search input#search:-moz-placeholder { /* Firefox 18- */
+    color: #65737e;  
+ }
+  
+ .search input#search::-moz-placeholder {  /* Firefox 19+ */
+    color: #65737e;  
+ }
+  
+ .search input#search:-ms-input-placeholder {  
+    color: #65737e;  
+ }
+
+ .search .icon{
+    position: absolute;
+    top: 28%;
+    right: -98%;
+    z-index: 1;
+    color: #4f5b66;
+  }
+
+  a {
+    text-decoration: none;
+    color: #EEEEEE;
+  }
+
+ .reg {
+     margin-left: 15px;
+ }
+
+ .login:hover {
+    background-color:  #333333;
+ }
+
+ .reg:hover {
+    background-color:  #333333;
+ }

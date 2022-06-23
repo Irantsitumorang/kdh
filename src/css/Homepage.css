@@ -1,0 +1,29 @@
+.homepage {
+    display: flex;
+}
+
+.komen .komen1a img {
+    width: 10%;
+    height: 110px;
+}
+
+.komen1 {
+    display: flex;
+}
+
+.komen1b2 {
+    display: flex;
+}
+
+.hp2 {
+    text-align: left;
+}
+
+ol li a:hover {
+    color:  #71695F !important;
+}
+
+ol li a{
+    color: black !important;
+    text-align: start;
+}
