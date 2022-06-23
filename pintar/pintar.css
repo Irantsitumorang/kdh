@@ -1,0 +1,197 @@
+.header-img {
+    display: flex;
+}
+
+.pintar img{
+    width: 30%;
+    margin-left: 15vw;
+}
+
+.search img {
+    margin-left: -20vw;
+    margin-top: 21px;
+}
+
+.header-menu ul{
+    display: flex;
+    justify-content: center;
+}
+
+.header-menu li {
+    margin-left: 40px;
+    list-style: none;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+.header-menu button {
+    font-size: 17px;
+    background-color: #1212a0;
+    font-weight: bold;
+    color: white;
+    width: 150px;
+    height: 40px;
+    border-radius: 10px;
+    margin-top: -7px;
+}
+
+.main-top img {
+    width: 100%;
+}
+
+.main-top , .main-solusi , .main-last {
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.main1 , .main2 , .solusi1 , .solusi2 , .solusi3 , .main-last{
+    display: flex;
+    justify-content: center;
+}
+
+.solusi {
+    margin: auto 40px;
+}
+
+.view {
+    background-color: #337DE6;
+    border: none;
+    border-radius: 10px;
+    width: 15%;
+    height: 35px;
+    margin: 25px;
+    margin-left: 40vw !important;
+}
+
+.solusi1 , .solusi2 , .solusi3 {
+    width: 100%;
+    margin-top: 25px;
+}
+
+.solusi img {
+    transition: width 1s;
+}
+
+.solusi img:hover {
+   width: 250px;
+   height: 250px;
+}
+
+.solusi1a , .solusi1b , .solusi2a , .solusi2b , .solusi3a , .solusi3b {
+    display: flex;
+    width: 50%
+}
+
+.solusi h2 {
+    margin-left: 30px;
+}
+
+.data {
+    display: flex;
+    margin-left: 30px;
+}
+
+.data h5 {
+    margin-right: 20px;
+}
+
+.main-solusi .solusi1a h2 , .solusi1b h2 , .solusi2a h2 , .solusi2b h2 , .solusi3a h2 , .solusi3b h2 {
+    color: #221638;
+}
+
+.main1 , .main2 {
+    width: 80%;
+    margin: 20px auto;
+}
+
+.main3 {
+    width: 60%;
+    text-align: justify;
+    margin: 20px auto;
+}
+
+.main3 button {
+    background-color: #5bc0de;
+    width: 35%;
+    height: 40px;
+    border: none;
+    border-radius: 10px;
+    margin-left: 18vw;
+}
+
+.main1 h2 {
+    color: #179FE9;
+    font-weight: bold;
+}
+
+.main2 h2 , .main3 h2{
+    color: #00ccff;
+}
+
+.main-solusi h1 , .main-solusi p{
+    text-align: center;
+}
+
+.main-last {
+    width: 80%;
+    margin: 20px auto;
+}
+
+.capcha {
+    position: fixed;
+    bottom: 0vw;
+    left: 90vw;
+}
+
+footer {
+    background-color: #363636;
+    color: white;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding: 35px;
+    text-align: justify;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    font-weight: 400;
+}
+
+.footer1 , .footer2 , .footer3 {
+    width: 33%;
+    line-height: 1;
+}
+
+.footer1 {
+    letter-spacing: 2px;
+}
+
+.footer2 {
+    padding-left: 55px;
+    padding-right: 55px;
+}
+
+.footer2 .bank {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.bank img {
+    border-radius: 20px;
+    width: 40%;
+}
+
+.copy {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+
+
+
