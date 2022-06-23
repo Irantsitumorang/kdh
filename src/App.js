@@ -1,25 +1,22 @@
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import React from 'react';
 import './App.css';
-import Navbar from './parts/Navbar';
-import Login from './pages/Login';
-import Register from './pages/Register';
-import Homepage from './pages/Homepage';
-
-
-function App() {
-  return (
-    
-      <Router>
+import Main from './components/Main.jsx';
+import Header from './components/Header';
+import Textfield from './components/Textfield';
+import Datefield from './components/Datefield'
+import Evenother from './components/Evenother'
+class App extends React.Component {
+  render() {
+    return (
       <div className="App">
-          <Navbar />
-        <Routes>
-          <Route path="/login" element={<Login />} />
-          <Route path="/register" element={<Register />} />
-        </Routes>
-        <Homepage/>
+        <Header />
+        <Main />
+        <Textfield />
+        <Datefield />
+        <Evenother />
       </div>
-      </Router>
-  );
+    );
+  }
 }
 
 export default App;

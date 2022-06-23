@@ -1,0 +1,57 @@
+.evenother {
+    width: 20%;
+    background-color: #f4f4f4;
+    padding: 1vw;
+    margin-top: 2vw;
+    margin-bottom: 5vw;
+    padding-bottom: 2vw;
+    position: relative;
+    left: 38vw;
+    padding-left: 3vw;
+}
+
+.subcom-head {
+    margin-bottom: 0;
+}
+
+.inner-head {
+    margin-top: 0;
+}
+
+.input {
+    margin-bottom: 0;
+}
+
+.other-subs {
+    margin-bottom: 0;
+}
+
+.inner-comp {
+    margin-bottom: 0;
+}
+
+.inner-component {
+    margin-top: 0;    
+}
+
+.eo-ph1 {
+    width: 40%;
+    height: 2vw;
+    margin-right: 5px;
+}
+
+.eo-ph2 {
+    height: 2vw;
+}
+
+.submit , .cancel {
+    width: 20%;
+    height: 2vw;
+    border-radius: 2vw;
+    margin-left: 5px;
+}
+
+.cancel {
+    background-color: blue;
+    color: white;
+}
